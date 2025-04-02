@@ -1,0 +1,11 @@
+clc; clear all; close all;
+
+%% hw 2 AME 552 problem 2
+
+a = 2;
+b = 1;
+c = 1;
+M = 3;
+A = [0 1;-b -a];
+[V,D] = eig(A)
+
